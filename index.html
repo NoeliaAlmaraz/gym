@@ -3,57 +3,159 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>GYM</title>
+   
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="diauno.html">DÍA UNO : ESPALDA - BICEP - TRAPECIO</a></li>
+                <li><a href="diados.html">DÍA DOS : PECHO - HOMBRO- TRICEP</a></li>
+                <li><a href="diatres.html">DÍA TRES : ESPALDA - BICEP - TRAPECIO</a></li>
+                <li><a href="diacuatro.html">DÍA CUATRO : PECHO - HOMBRO- TRICEP</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
-        <h2>DÍA 1</h2>
-        <section>
-            <article><img src="dia1-1.png" alt=""></article>
-            <article><img src="dia1-2.png" alt=""></article>
-            <article><img src="dia1-3.png" alt=""></article>
-            <article><img src="dia1-4.png" alt=""></article>
-            <article><img src="dia1-5.png" alt=""></article>
-            <article><img src="dia1-6.png" alt=""></article>
-            <article><img src="dia1-7.png" alt=""></article>
-            <article><img src="dia1-8.png" alt=""></article>
-        </section>
-        <h2>DÍA 2</h2>
-        <section>
-            <article><img src="dia2-1.png" alt=""></article>
-            <article><img src="dia2-2.png" alt=""></article>
-            <article><img src="dia2-3.png" alt=""></article>
-            <article><img src="dia2-4.png" alt=""></article>
-            <article><img src="dia2-5.png" alt=""></article>
-            <article><img src="dia2-6.png" alt=""></article>
-            <article><img src="dia2-7.png" alt=""></article>
-            <article><img src="dia2-8.png" alt=""></article>
-        </section>
-        <h2>DÍA 3</h2>
-        <section>
-            <article><img src="dia3-1.png" alt=""></article>
-            <article><img src="dia3-2.png" alt=""></article>
-            <article><img src="dia3-3.png" alt=""></article>
-            <article><img src="dia3-4.png" alt=""></article>
-            <article><img src="dia3-5.png" alt=""></article>
-            <article><img src="dia3-6.png" alt=""></article>
-            <article><img src="dia3-7.png" alt=""></article>
-            <article><img src="dia3-8.png" alt=""></article>
-        </section>
-        <h2>DÍA 4</h2>
-        <section>
-            <article><img src="dia4-1.png" alt=""></article>
-            <article><img src="dia4-2.png" alt=""></article>
-            <article><img src="dia4-3.png" alt=""></article>
-            <article><img src="dia4-4.png" alt=""></article>
-            <article><img src="dia4-5.png" alt=""></article>
-            <article><img src="dia4-6.png" alt=""></article>
-            <article><img src="dia4-7.png" alt=""></article>
-            <article><img src="dia4-8.png" alt=""></article>
-        </section>
-    </main>
-   
+        <div class="acordeon">
+            <!-- Panel 1 -->
+            <div class="panel">
+              <div class="panel-titulo" onclick="togglePanel(1)">ESPALDA</div>
+              <div class="panel-contenido" id="panelContenido1">
+                <section>
+                    <article><img src="./espalda-bicep-trapecio/dia2-3.png" alt=""></article>
+                    <article><img src="./espalda-bicep-trapecio/dia3-4.png" alt=""></article>
+                    <article><img src="./espalda-bicep-trapecio/dia4-2.png" alt=""></article>
+                    <article><img src="./espalda-bicep-trapecio/dia4-3.png" alt=""></article>
+                    <article><img src="./espalda-bicep-trapecio/dominada-1.png" alt=""></article>
+                    <article><img src="./espalda-bicep-trapecio/dorsalesancho-5.png" alt=""></article>
+                    <article><img src="./espalda-bicep-trapecio/lumbar-2.png" alt=""></article>
+                    <article><img src="./espalda-bicep-trapecio/lumbar-7.png" alt=""></article>
+                    <article><img src="./espalda-bicep-trapecio/remo inclinado-3.png" alt=""></article>
+                    <article><img src="./espalda-bicep-trapecio/remocerrado-8.png" alt=""></article>
+                    <article><img src="./espalda-bicep-trapecio/remosentado-4.png" alt=""></article>
+                    <article><img src="./espalda-bicep-trapecio/tirondorsales-6.png" alt=""></article>
+                </section>
+              </div>
+            </div>
+          
+            <!-- Panel 2 -->
+            <div class="panel">
+              <div class="panel-titulo" onclick="togglePanel(2)">BICEPS</div>
+              <div class="panel-contenido" id="panelContenido2">
+                <section>
+                    <article><img src="./espalda-bicep-trapecio/bicep1.png" alt=""></article>
+                    <article><img src="./espalda-bicep-trapecio/bicep2.png" alt=""></article>
+                    <article><img src="./espalda-bicep-trapecio/bicep3.png" alt=""></article>
+                    <article><img src="./espalda-bicep-trapecio/bicep4.png" alt=""></article>
+                    <article><img src="./espalda-bicep-trapecio/bicep5.jpeg" alt=""></article>
+                    <article><img src="./espalda-bicep-trapecio/bicep6.jpeg" alt=""></article>
+                    <article><img src="./espalda-bicep-trapecio/bicep7.jpeg" alt=""></article>
+                    <article><img src="./espalda-bicep-trapecio/bicep8.jpeg" alt=""></article>
+                </section>
+              </div>
+            </div>
 
+          
+            <!-- Panel 4 -->
+            <div class="panel">
+              <div class="panel-titulo" onclick="togglePanel(4)">PECHO</div>
+              <div class="panel-contenido" id="panelContenido4">
+                <section>
+                    <article><img src="./pecho-hombro-tricep/pecho1.png" alt=""></article>
+                <article><img src="./pecho-hombro-tricep/pecho2.png" alt=""></article>
+                <article><img src="./pecho-hombro-tricep/pecho3.png" alt=""></article>
+                <article><img src="./pecho-hombro-tricep/pecho4.png" alt=""></article>
+                <article><img src="./pecho-hombro-tricep/pecho5.png" alt=""></article>
+                <article><img src="./pecho-hombro-tricep/pecho6.png" alt=""></article>
+                <article><img src="./pecho-hombro-tricep/pecho7.png" alt=""></article>
+                <article><img src="./pecho-hombro-tricep/pecho8.png" alt=""></article>
+                </section>
+              </div>
+            </div>
+          
+            <!-- Panel 5 -->
+            <div class="panel">
+              <div class="panel-titulo" onclick="togglePanel(5)">HOMBRO</div>
+              <div class="panel-contenido" id="panelContenido5">
+                <section>
+                    <article><img src="./pecho-hombro-tricep/hombro1.png" alt=""></article>
+                    <article><img src="./pecho-hombro-tricep/hombro2.png" alt=""></article>
+                    <article><img src="./pecho-hombro-tricep/hombro3.png" alt=""></article>
+                    <article><img src="./pecho-hombro-tricep/hombro4.png" alt=""></article>
+                    <article><img src="./pecho-hombro-tricep/hombro5.png" alt=""></article>
+                    <article><img src="./pecho-hombro-tricep/hombro6.png" alt=""></article>
+                </section>
+              </div>
+            </div>
+          
+            <!-- Panel 6 -->
+            <div class="panel">
+              <div class="panel-titulo" onclick="togglePanel(6)">TRICEPS</div>
+              <div class="panel-contenido" id="panelContenido6">
+                <section>
+                    <article><img src="./pecho-hombro-tricep/tricep1.png" alt=""></article>
+                    <article><img src="./pecho-hombro-tricep/tricep2.png" alt=""></article>
+                    <article><img src="./pecho-hombro-tricep/tricep3.png" alt=""></article>
+                    <article><img src="./pecho-hombro-tricep/tricep4.png" alt=""></article>
+                    <article><img src="./pecho-hombro-tricep/tricep5.png" alt=""></article>
+                    <article><img src="./pecho-hombro-tricep/tricep7.jpeg" alt=""></article>
+                    <article><img src="./pecho-hombro-tricep/tricep8.jpeg" alt=""></article>
+                </section>
+              </div>
+            </div>
+          
+            <!-- Panel 7 -->
+            <div class="panel">
+              <div class="panel-titulo" onclick="togglePanel(7)">PIERNACA</div>
+              <div class="panel-contenido" id="panelContenido7">
+                <section>
+                    <article><img src="./pierna-abdominales/pierna1.png" alt=""></article>
+                    <article><img src="./pierna-abdominales/pierna2.png" alt=""></article>
+                    <article><img src="./pierna-abdominales/pierna3.png" alt=""></article>
+                    <article><img src="./pierna-abdominales/pierna4.png" alt=""></article>
+                    <article><img src="./pierna-abdominales/pierna5.png" alt=""></article>
+                    <article><img src="./pierna-abdominales/pierna6.png" alt=""></article>
+                    <article><img src="./pierna-abdominales/pierna7.png" alt=""></article>
+                    <article><img src="./pierna-abdominales/pierna8.png" alt=""></article>
+                    <article><img src="./pierna-abdominales/pierna9.png" alt=""></article>
+                    <article><img src="./pierna-abdominales/pierna10.png" alt=""></article>
+                </section>
+              </div>
+            </div>
+          
+            <!-- Panel 8 -->
+            <div class="panel">
+              <div class="panel-titulo" onclick="togglePanel(8)">ABDOMINALES</div>
+              <div class="panel-contenido" id="panelContenido8">
+                <section>
+                    <article><img src="./pierna-abdominales/abdominal1.png" alt=""></article>
+                    <article><img src="./pierna-abdominales/abdominal2.png" alt=""></article>
+                    <article><img src="./pierna-abdominales/abdominal3.png" alt=""></article>
+                    <article><img src="./pierna-abdominales/abdominal4.png" alt=""></article>
+                    <article><img src="./pierna-abdominales/abdominal5.png" alt=""></article>
+                    <article><img src="./pierna-abdominales/abdominal6.png" alt=""></article>
+                    <article><img src="./pierna-abdominales/abdominal7.png" alt=""></article>
+                    <article><img src="./pierna-abdominales/abdominal8.png" alt=""></article>
+                </section>
+              </div>
+            </div>
+          
+          </div>
+         
+    </main>
+       
+    <script>
+        function togglePanel(numero) {
+          var panelContenido = document.getElementById('panelContenido' + numero);
+          panelContenido.classList.toggle('active');
+        }
+    </script>
 </body>
 </html>
