@@ -1,0 +1,100 @@
+
+
+
+
+*{
+  font-family: "Teko", sans-serif;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #05c41c;
+}
+
+body {
+  background-image: url(dark-honeycomb.png);
+}
+
+header {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-block: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #05c41c;
+}
+
+main {
+ 
+  margin:0 auto;
+}
+
+
+h2 {
+  margin-top: 10px;
+  text-align: center;
+}
+
+section {
+  margin-block: 30px;
+  max-width: 100% ;
+  gap: 15px;
+  display: grid;
+  grid-template-columns: repeat(2, 1FR);
+  padding: 10px;
+}
+
+button {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+img {
+  max-width: 90%;
+  width: 187px;
+  height: 170px;
+  border-radius: 10px;
+}
+
+
+/* Estilos básicos */
+.acordeon {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.panel {
+  background-color: #3f6e53;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+
+.panel-titulo {
+  background-color: #4e464c;
+  padding: 10px;
+  cursor: pointer;
+}
+
+
+
+.cart-button {
+
+    z-index: 9999;
+
+    cursor: pointer;
+
+  }
+
+
+
+
